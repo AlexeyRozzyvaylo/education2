@@ -1,0 +1,539 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.index_main{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(88, 139, 88);
+    padding: 50px;
+}
+.about_lynx{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(88, 139, 88);
+    padding: 50px;
+}
+.Hunting_and_population{
+    color: brown;
+}
+.Breeding_and_Conservation{
+    color: aqua;
+}
+.content{
+    width: auto;
+}
+img{
+    width: 577px;
+}
+
+.in_t {
+    background-color: azure;
+    outline: 2px solid black;
+    width: 280px;
+}
+.wrapper{
+    width: 1200px;
+    background:rgba(218, 193, 193, 0.733) ;
+    margin: 50px auto;
+    padding: 50px 0 0;
+
+}
+
+.t_sell_a{
+    display: table-cell;
+    width: 400px;
+    background: red;
+    border: 2px solid black;
+}
+.t_cell_b_left{
+    display: table-cell;
+    width: 800px;
+
+    background: blue;
+    outline: 2px solid black;
+    
+}
+.t_cell_b_right{
+    display: table-cell;
+    width: 400px;
+    background: blue;
+}
+.text_tcel_right{
+    outline: 2px solid black;
+
+}
+.text_tcel_left{
+    border: 2px solid black;
+    height: 49px;
+    text-align: center;
+}
+.t_cell_c{
+    
+    width: 1200px;
+}
+.t_cell_c_left{
+    display: table-cell;
+    width: 600px;
+}
+.t_cell_c_left_up{
+
+    width: 600px;
+    background: yellow;
+    outline: 2px solid black;
+}
+.t_cell_c_left_down{
+    display: table-cell;
+    background: yellow;
+    width: 600px;
+    
+}
+.t_cell_c_left_down_one{
+    display: table-cell;
+    width: 300px;
+    
+}
+.t_cell_c_left_down_text{
+    outline: 2px solid black;
+    margin: 0;
+}
+.t_cell_c_right{
+    width: 600px;
+    display: table-cell;
+    outline: 2px solid black;
+    background: yellow;
+
+}
+.t_cell_b_left{
+    width: 800px;
+}
+.t_cell_d{
+    background: purple;
+}
+.t_cell_d_left{
+    width: 800px;
+    display: table-cell;
+    outline: 2px solid black;
+}
+.t_cell_d_right{
+    width: 400px;
+    display: table-cell;
+    outline: 2px solid black;
+}
+.t_cell_d_left_down{
+    display: table-cell;
+    outline: 2px solid black;
+}
+.t_cell_d_footer_r{
+    width: 400px;
+    display: table-cell;
+    outline: 2px solid black;
+}
+.t_cell_d_footer_l{
+    width: 400px;
+    display: table-cell;
+    outline: 2px solid black;
+}
+.main{
+    width: 1200px;
+    background: lightcoral;
+    margin: 50px auto;
+}
+.in_bl_a{
+    background: lightblue;
+    font-size: 0;
+}
+.in_bl_aa{
+    background: blue;
+    outline: 2px solid black;
+    width: 400px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    height: 100px;
+}
+.in_bl_b{
+    font-size: 0;
+    background: rgb(36, 117, 113);
+    width: 1200px;
+}
+.in_bl_b_b{
+    font-size: 20px;
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+.in_bl_b_bb{
+    width: 400px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.in_bl_b_pp{
+    outline: 2px solid black;
+    height: 120px;
+}
+.in_bl_b_p{
+    outline: 2px solid black;
+}
+.in_bl_c{
+    width: 1200px;
+    background: rgb(209, 57, 57);
+    font-size: 0;
+}
+.in_bl_cc{
+    width: 600px;
+    height: 240;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    outline: 2px solid black;
+}
+.in_bl_c_c{
+    display: inline-block;
+    font-size: 0;
+}
+.in_bl_c_cup{
+    font-size: 20px;
+    height: 120px;
+    outline: 2px solid black;
+}
+.in_bl_c_inc{
+    width: 300px;
+    outline: 2px solid black;
+    display: inline-block;
+    font-size: 20px;
+}
+.in_bl_c>div{
+    height: 240px;
+}
+.in_bl_d{
+    background: rgb(101, 168, 101);
+    font-size: 0;
+    height: 480px;
+}
+.in_bl_d_left{
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+.in_bl_d_right{
+    font-size: 20px;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+.in_bl_d_d{
+    outline: 2px solid black;
+    height: 240px;
+    font-size: 20px;
+}
+.in_bl_d_d_down{
+    height: 240px;
+    display: inline-block;
+    font-size: 0;
+}
+._in_bl_d_dd{
+    width: 400px;
+    height: 240px;
+    display: inline-block;
+    outline: 2px solid black;
+    font-size: 20px;
+    vertical-align: top;
+}
+.in_bl_d_right{
+    outline: 2px solid black;
+    height: 480px;
+}
+._in_dl_b_dd_r{
+    width: 400px;
+    height: 240px;
+    display: inline-block;
+    outline: 2px solid black;
+    font-size: 20px;
+    vertical-align: top;
+}
+.in_bl_dd_up{
+    outline: 2px solid black;
+}
+.in_float_a{
+    width: 400px;
+    background: rgb(202, 185, 86);
+    outline: 2px solid black;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.in_float_b{
+    width: 800px;
+    background: rgb(88, 86, 202);
+    outline: 2px solid black;
+    float: left;
+}
+.in_float_p{
+    height: 48px;
+}
+
+
+.in_float_b p{
+    outline: 2px solid black;
+}
+.in_float_c{
+    width: 600px;
+    outline: 2px solid black;
+    background: rgb(218, 151, 76);
+    float: left;
+}
+.in_fl_c_down{
+    width: 300px;
+    outline: 2px solid black;
+    background: rgb(218, 151, 76);
+    float: left;
+}
+.h80{
+    height: 80px;
+}
+.h160{
+    height: 160px;
+}
+.w400{
+    width: 400px;
+}
+.w800{
+    width: 800px;
+}
+.in_float_c p{
+    outline: 2px solid black;
+}
+.h128{
+    height: 128px;
+}
+.h256{
+    height: 256px;
+}
+.flex_main{
+    width: 1200px;
+    margin: 0 auto;
+    background: rgb(180, 94, 94);
+}
+.flex_a{
+    display: flex;
+    
+}
+.in_flex_a{
+    align-content: stretch;
+    outline: 2px solid black;
+}
+.flex_b{
+    background: red;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.in_flex_b{
+    align-content: stretch;
+}
+.in_flex_b_content{
+    height: 120px;
+}
+.in_flex_b>div{
+    outline: 2px solid black;
+}
+.flex_c{
+    background: gray;
+    display: inline-flex;
+}
+.in_flex_c_left{
+    height: 80px;
+}
+.flex_c>div{
+    outline: 2px solid black;
+}
+.flex_d{
+    background: rgba(165, 42, 42, 0.5);
+    display: inline-flex;
+}
+.in_flex_d_left_flex{
+    display: inline-flex;
+}
+.flex_d>div{
+    outline: 2px solid black;
+}
+.outln{
+    outline: 2px solid black;
+}
+.grid{
+    width: 1200px;
+    margin: 0 auto;
+    background: rgb(75, 133, 75);
+}
+.grid>div>div{
+    outline: 2px solid black;
+}
+.in_grid_a{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.in_grid_b{
+    display: grid;
+    grid-template-columns: 800px 400px;
+    background: red;
+}
+.in_g_b{
+    display: grid;
+}
+.in_grid_c{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    background: coral;
+}
+.in_g_c{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+}
+.in_grid_d{
+    display: grid;
+    grid-template-columns: 800px 400px;
+    background: lightgray;
+}
+.in_gr_d{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.in_gr_dd{
+    display: grid;
+    grid-template-rows: 128px;
+}
+.areas{
+    width: 1200px;
+    margin: 0 auto;
+    background: lightgreen;
+    display: grid;
+    grid-template-areas: 
+    "A1 A1 A2 A2 A2 A3"
+    "B1 B1 B1 B1 B1 B2"
+    "B1 B1 B1 B1 B1 B3"
+    "B4 B4 B4 B4 B4 B3"
+    "B4 B4 B4 B4 B4 B5"
+    "C1 C1 C1 C1 C2 C2"
+    "C3 C4 C4 C4 C2 C2"
+    "D1 D1 D1 D1 D1 D2"
+    "D3 D3 D3 D4 D4 D2"
+    "D5 D5 D5 D4 D4 D2";
+}
+.areas>div{
+    outline: 2px solid black;
+}
+.box1{
+    grid-area: A1;
+    background: red;
+}
+.box2{
+    grid-area: A2;
+    background: red;
+}
+.box3{
+    grid-area: A3;
+    background: red;
+}
+.box4{
+    grid-area: B1;
+    background: azure;
+}
+.box5{
+    grid-area: B2;
+    background: azure;
+}
+.box6{
+    grid-area: B3;
+    background: azure;
+}
+.box7{
+    grid-area: B4;
+    background: azure;
+}
+.box8{
+    grid-area: B5;
+    background: azure;
+}
+.box9{
+    grid-area: C1;
+    background: brown;
+}
+.box10{
+    grid-area: C2;
+    background: brown;
+}
+.box11{
+    grid-area: C3;
+    background: brown;
+}
+.box12{
+    grid-area: C4;
+    background: brown;
+}
+.box13{
+    grid-area: D1;
+    background: yellow;
+}
+.box14{
+    grid-area: D2;
+    background: yellow;
+}
+.box15{
+    grid-area: D3;
+    background: yellow;
+}
+.box16{
+    grid-area: D4;
+    background: yellow;
+}
+.box17{
+    grid-area: D5;
+    background: yellow;
+}
