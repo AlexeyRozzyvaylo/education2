@@ -58,6 +58,7 @@ table {
     margin: 0 auto;
     background: rgb(88, 139, 88);
     padding: 50px;
+    position: relative;
 }
 .Hunting_and_population{
     color: brown;
@@ -67,6 +68,29 @@ table {
 }
 .content{
     width: auto;
+}
+.pos_rel{
+    position: relative;
+}
+.name_img_content{
+    position: absolute;
+    height: 50px;
+    width: 577px;
+    font-size: 30px;
+    top: calc(50% - 25px);
+    left: calc(50% - 288px);
+    z-index: 5;
+    
+}
+.fixed_table{
+    position: fixed;
+    min-width: 100px;
+    left: 0;
+    top:calc(50% - 75px);
+    font-size: 25px;
+    z-index: 6;
+    outline: 2px solid black;
+
 }
 img{
     width: 577px;
